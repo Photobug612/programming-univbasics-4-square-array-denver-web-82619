@@ -5,7 +5,7 @@ def square_array(numbers)
   while numbers[counter]  do 
   new_number = numbers[counter]*numbers[counter]
     counter += 1
-    squared << squared 
+    squared << new_number 
   end
   squared
 end
